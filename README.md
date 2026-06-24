@@ -1,2 +1,2 @@
-# Y2K-Frat-Party
+# Y2K Frat Party
 Website for a sick af party
