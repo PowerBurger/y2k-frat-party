@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Y2K FRAT PARTY</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="script.js"></script>
   </head>
   <body>
     <div class="testy">
@@ -141,5 +143,21 @@
     </g>
   </g>
 </svg>
+
+    <input type="text" name="email" placeholder="Artist + Song..." autocomplete="off" required></input>
+    <br/>
+    <input type="text" name="email" placeholder="Drink..." autocomplete="off" required></input>
+    <br/>
+
+    <div style="text-align: center;">
+      <h1 >RSVP</h1>
+      <form id="submit-to-google-sheet">
+        <input class="formbox" type="text" name="name" id="name" placeholder="Full Name..." autocomplete="off" required></input>
+        <br/>
+        <input class="formbox" type="text" name="email" id="email" placeholder="Email..." autocomplete="off" required></input>
+        <br/>
+        <button type="submit">I'll Be There</button> 
+      </form>
+    </div>
   </body>
 </html>

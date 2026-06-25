@@ -2,3 +2,18 @@
     color: blue;
     font-weight: bold;
 }
+
+* {
+    background-color: rgb(133, 219, 206);
+}
+
+h1 {
+    color: white;
+    padding: .5rem;
+    text-align: center;
+}
+
+.formbox {
+    padding: .5rem;
+    margin: .5rem;
+}
