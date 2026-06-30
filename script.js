@@ -1,6 +1,6 @@
 //import Swal from "sweetalert2"
 
-const scriptURL = "https://script.google.com/macros/s/AKfycbx3_8S3ic1frX_lFjdbxIunDqCPzGCgP8mcZhmuKETgx5y9EhPuYEykdn6mUFVYI_oD/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbzjmlzeRUrg-kkPUREL1iNa__Tmioifbbraml_y3ADIk3ONtwNmdS4yc29Rvxzjkptf/exec";
 const form = document.forms["submit-to-google-sheet"];
 form.addEventListener("submit", (e) => {
     e.preventDefault();
