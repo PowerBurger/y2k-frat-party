@@ -9,7 +9,7 @@ form.addEventListener("submit", (e) => {
     var formData = new FormData(form)
     console.log("trying fetch")
     Swal.fire({title: "Sending", text: "Just one moment...", showConfirmButton: false})
-    fetch(scriptURL, { method: "POST", body: formData})
+    fetch(scriptURL, { method: "POST", body: formData, mode: "no-cors"})
     .then((response) => {
         Swal.fire({title: "Signed Up", text: "You're all set, see you there :D", icon: "success"});
         //window.alert("Done! See you there :D");
