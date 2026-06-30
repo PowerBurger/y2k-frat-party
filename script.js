@@ -1,4 +1,3 @@
-console.log("DIN MAMMAAA")
 //import Swal from "sweetalert2"
 
 const scriptURL = "https://script.google.com/macros/s/AKfycbyEtKwlX8akvz0ChmOil5ruIapsmaKyUUot1bFbuSOjt2vyiziCEudDq6YQdOKmrp59/exec";
