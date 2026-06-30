@@ -3,11 +3,11 @@
     font-weight: bold;
 }
 
-* {
+.ghe {
     background-color: rgb(133, 219, 206);
 }
 
-h1 {
+.myheader {
     color: white;
     padding: .5rem;
     text-align: center;
@@ -16,4 +16,18 @@ h1 {
 .formbox {
     padding: .5rem;
     margin: .5rem;
+}
+
+.mainsvg{
+    padding: 1rem 1rem;
+}
+
+.textboxleft{
+    text-align: right;
+    display: flex;
+}
+
+.textboxright{
+    text-align: left;
+    display: flex;
 }
