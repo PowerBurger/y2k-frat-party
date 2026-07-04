@@ -34,6 +34,10 @@ body {
     line-height: 1.5rem;
 }
 
+h2 {
+    letter-spacing: 0.05rem;
+}
+
 .phone-send-button {
     border: none;
     color: white;
