@@ -10,9 +10,8 @@
 
 body {
   background-image: url('Graphics/Background.png');
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
 }
 
 .mainsvg{
@@ -32,6 +31,12 @@ body {
     text-align: center;
     color: white;
     line-height: 1.5rem;
+}
+
+.placeline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h2 {
